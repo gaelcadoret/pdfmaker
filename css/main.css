@@ -1,0 +1,69 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#page {
+    position: relative;
+    display: block;
+    width: 200mm;
+    height: 267mm;
+    background-color: white;
+    border: none;
+    margin: 0 auto;
+    padding: 1cm;
+}
+
+.pageContainer {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    /*background-color: whitesmoke;*/
+}
+
+.logo {
+    width: 182px;
+    height: 100px;
+    position: relative;
+}
+
+.logo img {
+    position: absolute;
+    display: block;
+    width: 182px;
+    height: 75px;
+
+    top: 50%;
+
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.header {
+    font-size: 0;
+    max-height: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.header > div {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 16px;
+}
+
+.header .adresse p {
+    font-size: 12px;
+    margin: 0;
+}
