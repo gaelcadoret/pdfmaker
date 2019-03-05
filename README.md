@@ -12,4 +12,4 @@ Generate PDF from URI.
 ## Generate invoice
 `npm run pdfmaker`
 
-This task is able to run on server side on a Node JS environnement. By this way, you will be able to generate PDF with any endpoint (web service API).
+This task is able to run on server side on a Node JS environnement. In this way, you will be able to generate PDF with any endpoint (web service API).
